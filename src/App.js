@@ -40,7 +40,7 @@ function App() {
           <h1> Find a recipe</h1>
         </div>
         <form onSubmit={finalSearch}>
-          <input className='search' onChange={changeSearchTerm} placeholder="Search..." value={searchTerm}/>
+          <input className='search' onChange={changeSearchTerm} placeholder="Search by ingredients..." value={searchTerm}/>
           <button className='search-btn'>SEARCH</button>
         </form>
         <div className='recipes-container'>
